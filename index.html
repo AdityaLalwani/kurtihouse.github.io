@@ -28,6 +28,31 @@
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.16.0/firebase-firestore.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBAXiLLj_uqQdBYWbhhub4SNHJeJ8A80e0",
+    authDomain: "website-9ed47.firebaseapp.com",
+    databaseURL: "https://website-9ed47.firebaseio.com",
+    projectId: "website-9ed47",
+    storageBucket: "website-9ed47.appspot.com",
+    messagingSenderId: "237098697141",
+    appId: "1:237098697141:web:f3c6f7516889604fc199fc",
+    measurementId: "G-ERNK94YVG7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
   <script src="main.dart.js" type="application/javascript"></script>
+
 </body>
 </html>
